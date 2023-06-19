@@ -9,7 +9,9 @@ const ItemListContainer = () => {
   const [Items, setItems] = useState([]);
 
   useEffect(() => {
-    axios("../../db/library.json").then((json) => setItems(json.data.results));
+    axios(
+      "https://raw.githubusercontent.com/andrew-cei/ReactJS/main/db/library.json"
+    ).then((json) => setItems(json.data.results));
   }, []);
   return (
     <div className="container-fluid">

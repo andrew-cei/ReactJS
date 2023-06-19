@@ -1,4 +1,5 @@
 import viteLogo from "/vite.svg";
+import { Link } from "react-router-dom";
 
 // Components
 import CartWidget from "../CartWidget/CartWidget";
@@ -24,18 +25,18 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a
+              <Link
                 className="nav-link active"
                 aria-current="page"
-                href="/ReactJS"
+                to="/ReactJS"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/ReactJS/category/AudioCD">
+              <Link className="nav-link" to="/ReactJS/category/AudioCD">
                 Audio CD
-              </a>
+              </Link>
             </li>
             <li className="nav-item dropdown">
               <a
@@ -49,25 +50,25 @@ const NavBar = () => {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item" href="/ReactJS/category/Física">
+                  <Link className="dropdown-item" to="/ReactJS/category/Física">
                     Física
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="dropdown-item"
-                    href="/ReactJS/category/Matemáticas"
+                    to="/ReactJS/category/Matemáticas"
                   >
                     Matemáticas
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <hr className="dropdown-divider"></hr>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/ReactJS/category/Python">
+                  <Link className="dropdown-item" to="/ReactJS/category/Python">
                     Python
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
