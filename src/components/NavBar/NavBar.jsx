@@ -1,14 +1,13 @@
-import React from "react";
 import viteLogo from "/vite.svg";
 
 // Components
-import CartWidget from "./CartWidget";
+import CartWidget from "../CartWidget/CartWidget";
 
 const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="https://vitejs.dev/">
           <img src={viteLogo} alt="Bootstrap" width="30" height="24" />
         </a>
         <button
@@ -25,13 +24,17 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a
+                className="nav-link active"
+                aria-current="page"
+                href="/ReactJS"
+              >
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Libros
+              <a className="nav-link" href="/ReactJS/category/AudioCD">
+                Audio CD
               </a>
             </li>
             <li className="nav-item dropdown">
@@ -42,24 +45,27 @@ const NavBar = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Cursos
+                Libros
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item" href="#">
-                    Java
+                  <a className="dropdown-item" href="/ReactJS/category/Física">
+                    Física
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
-                    JavaScript
+                  <a
+                    className="dropdown-item"
+                    href="/ReactJS/category/Matemáticas"
+                  >
+                    Matemáticas
                   </a>
                 </li>
                 <li>
                   <hr className="dropdown-divider"></hr>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="/ReactJS/category/Python">
                     Python
                   </a>
                 </li>

@@ -1,0 +1,106 @@
+{
+  "info": {
+    "count": 826,
+    "pages": 42,
+    "next": "https://www.amazon.com.mx/",
+    "prev": null
+  },
+  "results": [
+    {
+      "id": 1,
+      "title": "Fourier Analysis",
+      "description": "This first volume, a three-part introduction to the subject, is intended for students with a beginning knowledge of mathematical analysis who are motivated to discover the ideas that shape Fourier analysis. It begins with the simple conviction that Fourier arrived at in the early nineteenth century when studying problems in the physical sciences--that an arbitrary function can be written as an infinite sum of the most basic trigonometric functions. The first part implements this idea in terms of notions of convergence and summability of Fourier series, while highlighting applications such as the isoperimetric inequality and equidistribution. The second part deals with the Fourier transform and its applications to classical partial differential equations and the Radon transform; a clear introduction to the subject serves to avoid technical difficulties. The book closes with Fourier theory for finite abelian groups, which is applied to prime numbers in arithmetic progression.In organizing their exposition, the authors have carefully balanced an emphasis on key conceptual insights against the need to provide the technical underpinnings of rigorous analysis. Students of mathematics, physics, engineering and other sciences will find the theory and applications covered in this volume to be of real interest.The Princeton Lectures in Analysis represents a sustained effort to introduce the core areas of mathematical analysis while also illustrating the organic unity between them. Numerous examples and applications throughout its four planned volumes, of which Fourier Analysis is the first, highlight the far-reaching consequences of certain ideas in analysis to other fields of mathematics and a variety of sciences. Stein and Shakarchi move from an introduction addressing Fourier series and integrals to in-depth considerations of complex analysis; measure and integration theory, and Hilbert spaces; and, finally, further topics such as functional analysis, distributions and elements of probability theory.",
+      "category": "Matemáticas",
+      "price": "1500",
+      "image": "https://m.media-amazon.com/images/I/91QALVCpvJL.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Complex Analysis",
+      "description": "With this second volume, we enter the intriguing world of complex analysis. From the first theorems on, the elegance and sweep of the results is evident. The starting point is the simple idea of extending a function initially given for real values of the argument to one that is defined when the argument is complex. From there, one proceeds to the main properties of holomorphic functions, whose proofs are generally short and quite illuminating: the Cauchy theorems, residues, analytic continuation, the argument principle. With this background, the reader is ready to learn a wealth of additional material connecting the subject with other areas of mathematics: the Fourier transform treated by contour integration, the zeta function and the prime number theorem, and an introduction to elliptic functions culminating in their application to combinatorics and number theory. Thoroughly developing a subject with many ramifications, while striking a careful balance between conceptual insights and the technical underpinnings of rigorous analysis, Complex Analysis will be welcomed by students of mathematics, physics, engineering and other sciences. The Princeton Lectures in Analysis represents a sustained effort to introduce the core areas of mathematical analysis while also illustrating the organic unity between them. Numerous examples and applications throughout its four planned volumes, of which Complex Analysis is the second, highlight the far-reaching consequences of certain ideas in analysis to other fields of mathematics and a variety of sciences. Stein and Shakarchi move from an introduction addressing Fourier series and integrals to in-depth considerations of complex analysis; measure and integration theory, and Hilbert spaces; and, finally, further topics such as functional analysis, distributions and elements of probability theory.",
+      "category": "Matemáticas",
+      "price": "1400",
+      "image": "https://m.media-amazon.com/images/I/A1pYa1g4PgL.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Real Analysis",
+      "description": "Real Analysis is the third volume in the Princeton Lectures in Analysis, a series of four textbooks that aim to present, in an integrated manner, the core areas of analysis. Here the focus is on the development of measure and integration theory, differentiation and integration, Hilbert spaces, and Hausdorff measure and fractals. This book reflects the objective of the series as a whole: to make plain the organic unity that exists between the various parts of the subject, and to illustrate the wide applicability of ideas of analysis to other fields of mathematics and science. After setting forth the basic facts of measure theory, Lebesgue integration, and differentiation on Euclidian spaces, the authors move to the elements of Hilbert space, via the L2 theory. They next present basic illustrations of these concepts from Fourier analysis, partial differential equations, and complex analysis. The final part of the book introduces the reader to the fascinating subject of fractional-dimensional sets, including Hausdorff measure, self-replicating sets, space-filling curves, and Besicovitch sets. Each chapter has a series of exercises, from the relatively easy to the more complex, that are tied directly to the text. A substantial number of hints encourage the reader to take on even the more challenging exercises. As with the other volumes in the series, Real Analysis is accessible to students interested in such diverse disciplines as mathematics, physics, engineering, and finance, at both the undergraduate and graduate levels.",
+      "category": "Matemáticas",
+      "price": "1500",
+      "image": "https://m.media-amazon.com/images/I/51ETjSfxV1L.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Functional Analysis",
+      "description": "This is the fourth and final volume in the Princeton Lectures in Analysis, a series of textbooks that aim to present, in an integrated manner, the core areas of analysis. Beginning with the basic facts of functional analysis, this volume looks at Banach spaces, Lp spaces, and distribution theory, and highlights their roles in harmonic analysis. The authors then use the Baire category theorem to illustrate several points, including the existence of Besicovitch sets. The second half of the book introduces readers to other central topics in analysis, such as probability theory and Brownian motion, which culminates in the solution of Dirichlet's problem. The concluding chapters explore several complex variables and oscillatory integrals in Fourier analysis, and illustrate applications to such diverse areas as nonlinear dispersion equations and the problem of counting lattice points. Throughout the book, the authors focus on key results in each area and stress the organic unity of the subject.",
+      "category": "Matemáticas",
+      "price": "1500",
+      "image": "https://m.media-amazon.com/images/I/91mqjJDKRsL.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Introduction to Electrodynamics",
+      "description": "This well-known undergraduate electrodynamics textbook is now available in a more affordable printing from Cambridge University Press. The Fourth Edition provides a rigorous, yet clear and accessible treatment of the fundamentals of electromagnetic theory and offers a sound platform for explorations of related applications (AC circuits, antennas, transmission lines, plasmas, optics and more). Written keeping in mind the conceptual hurdles typically faced by undergraduate students, this textbook illustrates the theoretical steps with well-chosen examples and careful illustrations. It balances text and equations, allowing the physics to shine through without compromising the rigour of the math, and includes numerous problems, varying from straightforward to elaborate, so that students can be assigned some problems to build their confidence and others to stretch their minds. A Solutions Manual is available to instructors teaching from the book; access can be requested from the resources section at www.cambridge.org/electrodynamics.",
+      "category": "Física",
+      "price": "1700",
+      "image": "https://m.media-amazon.com/images/I/51e0XXfO7ML.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Introduction to Quantum Mechanics",
+      "description": "Changes and additions to the new edition of this classic textbook include a new chapter on symmetries, new problems and examples, improved explanations, more numerical problems to be worked on a computer, new applications to solid state physics, and consolidated treatment of time-dependent potentials.",
+      "category": "Física",
+      "price": "1400",
+      "image": "https://m.media-amazon.com/images/I/81aR7Qg1pbL.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Introduction to Elementary Particles",
+      "description": "In the second, revised edition of a well-established textbook, the author strikes a balance between quantitative rigor and intuitive understanding, using a lively, informal style. The first chapter provides a detailed historical introduction to the subject, while subsequent chapters offer a quantitative presentation of the Standard Model. A simplified introduction to the Feynman rules, based on a toy model, helps readers learn the calculational techniques without the complications of spin. It is followed by accessible treatments of quantum electrodynamics, the strong and weak interactions, and gauge theories. New chapters address neutrino oscillations and prospects for physics beyond the Standard Model. The book contains a number of worked examples and many end-of-chapter problems. A complete solution manual is available for instructors.",
+      "category": "Física",
+      "price": "1600",
+      "image": "https://m.media-amazon.com/images/P/B08R2BZ4MX.01._SCLZZZZZZZ_SX500_.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Modern Classical Physics",
+      "description": "This first-year graduate-level text and reference book covers the fundamental concepts and twenty-first-century applications of six major areas of classical physics that every masters- or PhD-level physicist should be exposed to, but often isn't: statistical physics, optics (waves of all sorts), elastodynamics, fluid mechanics, plasma physics, and special and general relativity and cosmology. Growing out of a full-year course that the eminent researchers Kip Thorne and Roger Blandford taught at Caltech for almost three decades, this book is designed to broaden the training of physicists. Its six main topical sections are also designed so they can be used in separate courses, and the book provides an invaluable reference for researchers.",
+      "category": "Física",
+      "price": "1700",
+      "image": "https://m.media-amazon.com/images/I/91i-300CHcL.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Programming for Computations",
+      "description": "This book presents computer programming as a key method for solving mathematical problems. This second edition of the well-received book has been extensively revised: All code is now written in Python version 3.6 (no longer version 2.7). In addition, the two first chapters of the previous edition have been extended and split up into five new chapters, thus expanding the introduction to programming from 50 to 150 pages. Throughout the book, the explanations provided are now more detailed, previous examples have been modified, and new sections, examples and exercises have been added. Also, a number of small errors have been corrected.",
+      "category": "Python",
+      "price": "600",
+      "image": "https://m.media-amazon.com/images/I/61WKhlBO9YL.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Python para Todos",
+      "description": "Python para Todos está diseñado para introducir a los estudiantes en la programación y el desarrollo de software a través de un enfoque en la exploración de datos. Puedes pensar en Python como una herramienta para resolver problemas que están más allá de las capacidades de una simple hoja de cálculo.Python es un lenguaje de programación fácil de usar y sencillo de aprender, disponible de forma gratuita para equipos Macintosh, Windows, o Linux. Una vez que aprendes Python, puedes utilizarlo el resto de tu carrera sin necesidad de comprar ningún software.Existen copias electrónicas gratuitas de este libro en varios formatos, así como material de soporte para el libro, que pues encontrar en es.py4e.com. Los materiales del curso están disponibles bajo una Licencia Creative Commons, de modo que puedes adaptarlos para enseñar tu propio curso de Python.",
+      "category": "Python",
+      "price": "220",
+      "image": "https://m.media-amazon.com/images/I/713MV5cKjAL.jpg"
+    },
+    {
+      "id": 11,
+      "title": "100 Great Symphonies",
+      "description": "100 Great Symphonies is a compelling voyage of musical discovery for musicians everywhere a bible of symphonic music and an authoritative listening tool for others. Combined with DG s unrivalled roster of the world s greatest conductors and orchestras, it makes a singularly compelling proposition.To arrive at 100 Great Symphonies, Deutsche Grammophon asked the public the simple question: What are your favourite symphonies? Over 2,300 people responded, casting over 8,000 votes altogether. The top 50 symphonies in the voter charts form the backbone of this new set. The substantial box 56 CDs contains a huge range of works starting with Giovanni Battista Sammartini and ending with Arvo Pärt and Philip Glass, taking in every major symphonist on the way. It is over 60 hours of glorious, fascinating listening. CD 1Giovanni Battista SammartiniJohann StamitzCarl Ditters von DittersdorfJC BachCPE Bach CD 2Joseph HaydnCD 3 Joseph HaydnCD 4 Joseph HaydnCD 5 Wolfgang Amadeus MozartCD 6Wolfgang Amadeus MozartCD 7Wolfgang Amadeus MozartCD 8Ludwig van BeethovenCD 9Ludwig van BeethovenCD 10Ludwig van BeethovenCD 11Ludwig van BeethovenCD 12 Ludwig van BeethovenCD 13Franz SchubertCD 14Franz SchubertCD 15Hector BerliozCD 16Felix MendelssohnCD 17Robert SchumannCD 18Robert SchumannCD 19Franz LisztCD 20Johannes BrahmsCD 21Johannes BrahmsCD 22ANTONIN DVO ÁKCD 23 24PETER ILYICH TCHAIKOVSKYCD 25ALEXANDER BORODINSERGEI RACHMANINOVCD 26CÉSAR FRANCKALBERT ROUSSELCD 27 (83:08)CAMILLE SAINT-SAËNSALEXANDER SCRIABINCD 28 ANTON BRUCKNERCD 29ANTON BRUCKNERCD 31 GUSTAV MAHLERCD 32 GUSTAV MAHLERCD 33 GUSTAV MAHLERCD 34 GUSTAV MAHLERCD 35JEAN SIBELIUS CD 36EDWARD ELGARCD 37RICHARD STRAUSSCD 38ARNOLD SCHOENBERGANTON WEBERN FRANZ SCHMIDTCD 39CARL NIELSENCD 40SERGE PROKOFIEVCD 41 42DMITRI SHOSTAKOVICHCD 43DMITRI SHOSTAKOVICHCD 44DMITRI SHOSTAKOVICHCD 45CHARLES IVESSAMUEL BARBERCD 46PAUL HINDEMITHCD 47RALPH VAUGHAN WILLIAMSWILLIAM WALTON CD 48ROY HARRISWILLIAM SCHUMANCD 49IGOR STRAVINSKYCD 50ARTHUR HONEGGERCD 51OLIVIER MESSIAENCD 52AARON COPLANDLEONARD BERNSTEINCD 53 BENJAMIN BRITTENMICHAEL TIPPETTCD 54LUCIANO BERIOWITOLD LUTOSLAWSKICD 55HENRYK GÓRECKICD 56ARVO PÄRT PHILIP GLASS",
+      "category": "AudioCD",
+      "price": "2300",
+      "image": "https://m.media-amazon.com/images/I/51F1Bp4RwBL.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Complete Solo Piano Music",
+      "description": "On this specially-priced 8-CD set Zoltan Kocsis performs the complete solo piano music of his fellow Hungarian, B la Bart k. Completed in 2001, these critically acclaimed, definitive performances are the benchmark against which all others are considered.",
+      "category": "AudioCD",
+      "price": "610",
+      "image": "https://m.media-amazon.com/images/I/51lpUh6Kv1L.jpg"
+    }
+  ]
+}
