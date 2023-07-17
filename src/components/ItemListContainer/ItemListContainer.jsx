@@ -4,15 +4,27 @@ import axios from "axios";
 import "./ItemListContainer.css";
 // Components
 import Item from "../Item/Item";
+// Firebase
+import { db } from "../../firebase/firebaseConfig";
+import { collection, query, getDocs } from "firebase/firestore";
 
 const ItemListContainer = () => {
   const [Items, setItems] = useState([]);
 
+  // Consulta a la base de datos de Firebase
   useEffect(() => {
-    axios(
-      "https://raw.githubusercontent.com/andrew-cei/ReactJS/main/db/library.json"
-    ).then((json) => setItems(json.data.results));
+    const getProducts = async () => {
+      const q = query(collection(db, "products"));
+      const products = [];
+      const querySnapshot = await getDocs(q);
+      querySnapshot.forEach((prod) => {
+        products.push({ ...prod.data(), id: prod.id });
+      });
+      setItems(products);
+    };
+    getProducts();
   }, []);
+
   return (
     <div className="container-fluid">
       <h2>Productos</h2>

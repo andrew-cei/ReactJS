@@ -8,8 +8,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ItemListPage from "./pages/ItemListPage/ItemListPage";
 import ItemPage from "./pages/ItemPage/ItemPage";
 import CategoryPage from "./pages/CategoryPage/CategoryPage";
+import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <div>
@@ -21,10 +22,11 @@ function App() {
             path="/ReactJS/category/:categoryid"
             element={<CategoryPage />}
           />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </div>
     </Router>
   );
-}
+};
 
 export default App;
