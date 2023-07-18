@@ -8,17 +8,17 @@ import { collection, query, where, getDocs } from "firebase/firestore";
 // Components
 import Item from "../../components/Item/Item";
 
-const ItemPage = () => {
+const SearchPage = () => {
   const [Items, setItems] = useState([]);
   // Uso de parámetro categoría
-  let { categoryid } = useParams();
+  let { searchTerm } = useParams();
 
   // Consulta a la base de datos de Firebase por categoría
   useEffect(() => {
     const getProducts = async () => {
       const q = query(
         collection(db, "products"),
-        where("category", "==", categoryid)
+        where("price", "<=", parseInt(searchTerm))
       );
       const products = [];
       const querySnapshot = await getDocs(q);
@@ -32,7 +32,7 @@ const ItemPage = () => {
 
   return (
     <div className="container-fluid">
-      <h2>{categoryid}</h2>
+      <h2>Precio menor a: ${searchTerm}</h2>
       <div id="ListContainer">
         {Items.map((oneItem) => {
           return (
@@ -48,4 +48,4 @@ const ItemPage = () => {
   );
 };
 
-export default ItemPage;
+export default SearchPage;

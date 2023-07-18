@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import axios from "axios";
 import "./ItemListContainer.css";
 // Components
 import Item from "../Item/Item";

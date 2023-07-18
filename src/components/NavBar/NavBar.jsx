@@ -1,10 +1,19 @@
 import viteLogo from "/vite.svg";
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+import TextField from "@mui/material/TextField";
 
 // Components
 import CartWidget from "../CartWidget/CartWidget";
 
 const NavBar = () => {
+  const [value, setValue] = useState("");
+  const handleOnChange = (evento) => {
+    setValue(evento.target.value);
+  };
+  const handleOnClick = () => {
+    setValue("");
+  };
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
@@ -77,15 +86,20 @@ const NavBar = () => {
             </li>
           </ul>
           <form className="d-flex" role="search">
-            <input
-              className="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
+            <TextField
+              id="outlined-basic"
+              label="Búsqueda por precio"
+              variant="outlined"
+              value={value}
+              onChange={handleOnChange}
             />
-            <button className="btn btn-outline-success" type="submit">
-              Search
-            </button>
+            <Link
+              className="btn btn-outline-success"
+              to={`/ReactJS/search/${value}`}
+              onClick={handleOnClick}
+            >
+              Buscar
+            </Link>
           </form>
         </div>
         <CartWidget />
